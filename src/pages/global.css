@@ -1,0 +1,42 @@
+.backbutton {
+    height: 50px;
+    margin: 5px;
+    width: 50px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #4c365b 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #4b366d, #6f5198);
+    -webkit-box-shadow: -1px -5px 15px #4b366d, 5px 5px 15px #4b366d,
+      inset 5px 5px 10px #4b366d, inset -5px -5px 10px #452561;
+    box-shadow: -1px -5px 15px #4b366d, 5px 5px 15px #4b366d,
+      inset 5px 5px 10px #4b366d, inset -5px -5px 10px #4b366d;
+  }
+  
+  .backbutton:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  .backbutton:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
+  

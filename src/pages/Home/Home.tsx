@@ -4,15 +4,19 @@ import React from "react";
 import { useEffect } from 'react'
 import { motion, useScroll, useSpring, stagger, useAnimate } from "framer-motion";
 import { cn } from "./cn";
+import { Link } from "react-router-dom";
 import './home.css'
+
+import Footer from "../../components/Footer";
 
 const Home = ({
   words,
   className,
-  
+  img,
 }: {
   words: string;
   className?: string;
+  img?: string;
 }) => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -57,12 +61,12 @@ const Home = ({
   };
 
   return (
-    <section className='pb-10 flex flex-col justify-center bg-gradient-to-r from-purple-200 to-sky-200 '>
+    <section className='flex flex-col justify-center max-w-7xl w-full'>
       
    <motion.div className="progress-bar" style={{ scaleX }} />
     <div className="py-14 px-12 mx-auto max-w-7xl">
   
-        <div className="w-full mx-auto md:w-11/12 xl:w-9/12 md:text-center justify-center text-center">
+        <div className="w-full mx-auto md:w-11/12 xl:w-11/12 md:text-center justify-center text-center">
         <div className={cn("font-bold", className)}>
         <div className="mt-4">
           <div className="block w-full text-7xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-300 to-violet-900 lg:inline">
@@ -91,7 +95,7 @@ const Home = ({
                             <div className="w-3 h-3 border-2 border-white rounded-full"></div>
                         </div>
                     </div>
-                    <img className='w-full rounded-b-lg' src="https://newsroom.churchofjesuschrist.org/download/16792580083950332206" />
+                    <img className='w-full rounded-b-lg' src={img} />
                 </div>
             </div>
         </div>
@@ -103,23 +107,29 @@ const Home = ({
         <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl ">Comités y Requisitos</h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3 px-12 md:px-0 ">
+        <Link to={'/tecnologia'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/workstation.png" alt="workstation"/>
                 </span>
-
+                
+                <Link to={'/tecnologia'}>
                 <h1 className="text-xl font-semibold text-gray-700 capitalize">Tecnología</h1>
-
+                </Link>
                 <p className="text-gray-500 ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                 </p>
-
-                <a href="#" className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 ">
+                
+                <Link to={'/tecnologia'}>
+                <a  className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 ">
                     <span className="mx-1">read more</span>
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
+                </Link>
             </div>
+            </Link>
 
+            <Link to={'/seguridad'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/lock-2.png" alt="lock-2"/>
@@ -136,7 +146,9 @@ const Home = ({
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+            </Link>
 
+            <Link to={'/estacionamiento'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/bus.png" alt="bus"/>
@@ -153,7 +165,9 @@ const Home = ({
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+            </Link>
 
+            <Link to={'/recorridos'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/walking.png" alt="walking"/>
@@ -170,7 +184,9 @@ const Home = ({
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+            </Link>
 
+            <Link to={'/traduccion'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/translate-app.png" alt="translate-app"/>
@@ -187,7 +203,9 @@ const Home = ({
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+            </Link>
 
+            <Link to={'/facilidades'}>
             <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/wheelchair.png" alt="wheelchair"/>
@@ -204,6 +222,7 @@ const Home = ({
                     <svg className="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
+            </Link>
         </div>
     </div>
 </section>
@@ -511,6 +530,8 @@ const Home = ({
         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
       </motion.a>
     </div>
+
+    <Footer />
 </section>
   )
 }
