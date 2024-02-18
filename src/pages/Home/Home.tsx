@@ -104,11 +104,11 @@ const Home = ({
   {/* FEATURES SECTION */}
   <section className="">
     <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl ">Comités y Requisitos</h1>
+        <h1 className="py-10 text-5xl font-bold text-gray-900">Comités y Requisitos</h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3 px-12 md:px-0 ">
         <Link to={'/tecnologia'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500 ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/workstation.png" alt="workstation"/>
                 </span>
@@ -130,7 +130,7 @@ const Home = ({
             </Link>
 
             <Link to={'/seguridad'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/lock-2.png" alt="lock-2"/>
                 </span>
@@ -149,7 +149,7 @@ const Home = ({
             </Link>
 
             <Link to={'/estacionamiento'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/bus.png" alt="bus"/>
                 </span>
@@ -168,7 +168,7 @@ const Home = ({
             </Link>
 
             <Link to={'/recorridos'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/walking.png" alt="walking"/>
                 </span>
@@ -187,7 +187,7 @@ const Home = ({
             </Link>
 
             <Link to={'/traduccion'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/translate-app.png" alt="translate-app"/>
                 </span>
@@ -206,7 +206,7 @@ const Home = ({
             </Link>
 
             <Link to={'/facilidades'}>
-            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+            <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/wheelchair.png" alt="wheelchair"/>
                 </span>
@@ -236,11 +236,11 @@ const Home = ({
 {/* CALENDAR SECTION  */}
 
 
-<h2 className=" pt-20 text-5xl font-bold text-gray-900">Calendario</h2>
+<h2 className="pt-28 text-5xl font-bold text-gray-900">Calendario</h2>
 
 <section className="container mx-auto p-6 ">
 <div className="container mx-auto p-4 space-y-2 text-left">
-<h2 className="text-2xl font-semibold text-gray-900 uppercase">Ultima semana de Marzo:</h2>
+<h2 className="text-3xl font-bold pt-10 ">Ultima semana de Marzo:</h2>
 </div>
   <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
     <div className="w-full overflow-x-auto">
@@ -312,7 +312,7 @@ const Home = ({
 
 <section className="container mx-auto p-6 ">
 <div className="container mx-auto p-4 space-y-2 text-left">
-<h2 className="text-2xl font-semibold text-gray-900 uppercase">Ultima semana de Marzo:</h2>
+<h2 className="text-3xl font-bold ">Ultima semana de Marzo:</h2>
 </div>
   <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
     <div className="w-full overflow-x-auto">
@@ -383,7 +383,7 @@ const Home = ({
 
 <section className="container mx-auto p-6 ">
 <div className="container mx-auto p-4 space-y-2 text-left">
-<h2 className="text-2xl font-semibold text-gray-900 uppercase">Ultima semana de Marzo:</h2>
+<h2 className="text-3xl font-bold">Ultima semana de Marzo:</h2>
 </div>
   <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
     <div className="w-full overflow-x-auto">
@@ -454,7 +454,7 @@ const Home = ({
 
 <section className="container mx-auto p-6 ">
 <div className="container mx-auto p-4 space-y-2 text-left">
-<h2 className="text-2xl font-semibold text-gray-900 uppercase">Ultima semana de Marzo:</h2>
+<h2 className="text-3xl font-bold">Ultima semana de Marzo:</h2>
 </div>
   <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
     <div className="w-full overflow-x-auto">
