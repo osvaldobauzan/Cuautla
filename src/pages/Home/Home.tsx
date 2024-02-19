@@ -54,7 +54,7 @@ const Home = ({
           const wordClass =
             word === "Cuautla"
               ? // || word === "Puebla"
-                "w-full text-7xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
+                "w-full md:text-7xl text-6xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
               : "text-black";
           return (
             <motion.span
@@ -72,11 +72,11 @@ const Home = ({
   return (
     <section className="flex flex-col justify-center max-w-7xl w-full">
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <div className="py-14 px-12 mx-auto max-w-7xl">
+      <div className="py-14 px-12 mx-auto max-w-7xl ">
         <div className="w-full mx-auto md:w-11/12 xl:w-11/12 md:text-center justify-center text-center">
           <div className={cn("font-bold", className)}>
             <div className="mt-4">
-              <div className="block w-full text-7xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-300 to-violet-900 lg:inline">
+              <div className="block w-full md:text-7xl text-6xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-300 to-violet-900 lg:inline">
                 {renderWords()}
               </div>
             </div>
@@ -129,12 +129,12 @@ const Home = ({
 
       {/* FEATURES SECTION */}
       <section className="">
-        <div className="container px-6 py-10 mx-auto">
+        <div className="container md:px-6 py-10 mx-auto">
           <h1 className="py-10 text-5xl font-bold text-gray-900">
             Comités y Requisitos
           </h1>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3 px-12 md:px-0 ">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3 md:px-12 px-0 ">
             <Link to={"/tecnologia"}>
               <div className="flex flex-col items-center justify-center p-6 space-y-3 text-center bg-gray-100 rounded-xl shadow-lg hover:shadow-2xl hover:duration-500 ">
                 <span className="inline-block p-3 text-purple-500 bg-purple-200 rounded-full ">
@@ -428,7 +428,7 @@ const Home = ({
 
       <h2 className="pt-28 text-5xl font-bold text-gray-900">Calendario</h2>
 
-      <section className="container mx-auto p-6 ">
+      <section className="container mx-auto md:p-6 sm:p-2 ">
         <div className="container mx-auto p-4 space-y-2 text-left">
           <h2 className="text-3xl font-bold pt-10 ">Ultima semana de Marzo:</h2>
         </div>
@@ -502,7 +502,7 @@ const Home = ({
         </div>
       </section>
 
-      <section className="container mx-auto p-6 ">
+      <section className="container mx-auto md:p-6 sm:p-2 ">
         <div className="container mx-auto p-4 space-y-2 text-left">
           <h2 className="text-3xl font-bold ">Primer semana de Abril:</h2>
         </div>
@@ -580,7 +580,7 @@ const Home = ({
         </div>
       </section>
 
-      <section className="container mx-auto p-6 ">
+      <section className="container mx-auto md:p-6 sm:p-2">
         <div className="container mx-auto p-4 space-y-2 text-left">
           <h2 className="text-3xl font-bold">Segunda semana de Abril:</h2>
         </div>
@@ -656,7 +656,7 @@ const Home = ({
         </div>
       </section>
 
-      <section className="container mx-auto p-6 ">
+      <section className="container mx-auto md:p-6 sm:p-2">
         <div className="container mx-auto p-4 space-y-2 text-left">
           <h2 className="text-3xl font-bold">Tercera semana de Abril:</h2>
         </div>
@@ -760,7 +760,7 @@ const Home = ({
 
       {/* HUVASDCBHIC */}
 
-      <section className="container mx-auto p-6 ">
+      <section className="container mx-auto md:p-6 sm:p-2 ">
         <div className="container mx-auto p-4 space-y-2 text-left">
           <h2 className="text-3xl font-bold pt-10 ">Fechas de capacitación:</h2>
         </div>

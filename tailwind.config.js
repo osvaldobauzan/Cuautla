@@ -3,7 +3,7 @@ module.exports = {
   'node_modules/flowbite-react/lib/esm/**/*.js', /* src folder, for example */],
   theme: {
     screens: {
-      'sm': '400px',
+      'sm': '300px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',

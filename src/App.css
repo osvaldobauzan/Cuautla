@@ -1,9 +1,9 @@
  body{
-  display: flex;
-  justify-content: center;
   margin: 0;
   height: 100%;
-  background-image: linear-gradient(to right, #D6BCFA, #87CEEB);
+  background: linear-gradient(to right, #D6BCFA, #87CEEB);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
