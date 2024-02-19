@@ -738,7 +738,8 @@ const Home = ({
         <motion.a
           whileHover={{ scale: 1.2, rotate: 10 }}
           whileTap={{ scale: 0.8, rotate: -10 }}
-          href="#_"
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=9_PMdkih7kKscDZGUlWmsiqbw7t9kotKirggV9Xm5NFUOUc5U01PT0dYWUlQMldTV0ZZQ1hPUkQ1VC4u"
+          target="_blank"
           className="inline-flex items-center justify-center px-6 py-3 mb-2 text-lg text-white bg-purple-700 rounded-2xl sm:w-auto sm:mb-0 "
         >
           Incríbete
