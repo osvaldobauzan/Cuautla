@@ -151,7 +151,7 @@ const Home = ({
                     Tecnología
                   </h1>
                 </Link>
-                <p className="text-gray-500 ">
+                <p className="text-gray-500 text-left">
                   Somos los responsables de atender a los visitantes en la
                   primera estación del recorrido de puertas abiertas del templo
                   de Puebla, para ayudarles a reconocer el propósito de estos en
@@ -160,7 +160,7 @@ const Home = ({
 
                 <Link to={"/tecnologia"}>
                   <a className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 ">
-                    <span className="mx-1">read more</span>
+                    <span className="mx-1">Leer más</span>
                     <svg
                       className="w-4 h-4 mx-1 rtl:-scale-x-100"
                       fill="currentColor"
@@ -193,7 +193,7 @@ const Home = ({
                   Protección y Seguridad
                 </h1>
 
-                <p className="text-gray-500 ">
+                <p className="text-gray-500 text-left">
                   Cuidar y proteger la Integridad Física (Salud) y Material
                   (Bienes) de todos los participantes al Evento con la ayuda de
                   25 hermanas y/o hermanos bien dispuestos
@@ -203,7 +203,7 @@ const Home = ({
                   href="#"
                   className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 "
                 >
-                  <span className="mx-1">read more</span>
+                  <span className="mx-1">Leer más</span>
                   <svg
                     className="w-4 h-4 mx-1 rtl:-scale-x-100"
                     fill="currentColor"
@@ -235,17 +235,20 @@ const Home = ({
                   Estacionamiento
                 </h1>
 
-                <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                <p className="text-gray-500 text-left">
+                  Coordinar el estacionamiento para invitados, voluntarios y
+                  miembros en general que asistan a cada uno de los eventos.
+                  También se organiza con el subcomité de seguridad para la
+                  disposición de los vehículos de los oficiales de la Iglesia
+                  durante los eventos de la dedicación (en caso de ser
+                  necesario)
                 </p>
 
                 <a
                   href="#"
                   className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 "
                 >
-                  <span className="mx-1">read more</span>
+                  <span className="mx-1">Leer más</span>
                   <svg
                     className="w-4 h-4 mx-1 rtl:-scale-x-100"
                     fill="currentColor"
@@ -277,17 +280,19 @@ const Home = ({
                   Recorridos
                 </h1>
 
-                <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                <p className="text-gray-500 text-left">
+                  Somos los responsables de orientar a los visitantes al iniciar
+                  su experiencia en el evento de puertas abiertas del templo de
+                  Puebla, así como de los recorridos Internos dentro del templo.
+                  Este es el comité ideal si eres un hombre o mujer jóven
+                  queriendo pariticipar
                 </p>
 
                 <a
                   href="#"
                   className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 "
                 >
-                  <span className="mx-1">read more</span>
+                  <span className="mx-1">Leer más</span>
                   <svg
                     className="w-4 h-4 mx-1 rtl:-scale-x-100"
                     fill="currentColor"
@@ -319,17 +324,20 @@ const Home = ({
                   Traducción
                 </h1>
 
-                <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                <p className="text-gray-500 text-left">
+                  Nuestra responsabilidad es la de ofrecer el apoyo con la
+                  atención en los idiomas, inglés, alemán y lenguaje de señas,
+                  durante el recorrido completo de puertas abiertas con fechas y
+                  horarios específicos. Establecer guardias durante los
+                  distintos turnos, por si fuera necesario dar esa atención en
+                  recorridos fuera de los designados.
                 </p>
 
                 <a
                   href="#"
                   className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 "
                 >
-                  <span className="mx-1">read more</span>
+                  <span className="mx-1">Leer más</span>
                   <svg
                     className="w-4 h-4 mx-1 rtl:-scale-x-100"
                     fill="currentColor"
@@ -361,17 +369,19 @@ const Home = ({
                   Facilidades Físicas
                 </h1>
 
-                <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                <p className="text-gray-500 text-left">
+                  Suministrar todo aquello que facilite el desarrollo de las
+                  actividades y los eventos de puertas abiertas y dedicación del
+                  templo de Puebla, mantener todas las áreas del templo en orden
+                  y limpieza para que cada visitante pueda sentir un espíritu de
+                  reverencia y santidad de este sagrado lugar.
                 </p>
 
                 <a
                   href="#"
                   className="flex items-center -mx-1 text-sm text-gray-700 capitalize transition-colors duration-300 transform  hover:underline hover:text-blue-600 "
                 >
-                  <span className="mx-1">read more</span>
+                  <span className="mx-1">Leer más</span>
                   <svg
                     className="w-4 h-4 mx-1 rtl:-scale-x-100"
                     fill="currentColor"
@@ -395,7 +405,8 @@ const Home = ({
         <motion.a
           whileHover={{ scale: 1.2, rotate: 10 }}
           whileTap={{ scale: 0.8, rotate: -10 }}
-          href="#_"
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=9_PMdkih7kKscDZGUlWmsiqbw7t9kotKirggV9Xm5NFUOUc5U01PT0dYWUlQMldTV0ZZQ1hPUkQ1VC4u"
+          target="_blank"
           className="inline-flex items-center justify-center px-6 py-3 mb-2 text-lg text-white bg-purple-700 rounded-2xl sm:w-auto sm:mb-0 "
         >
           Incríbete
@@ -444,29 +455,263 @@ const Home = ({
                       </div>
                     </div>
                   </td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs">LA PAZ</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN SUR</td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">12:00 16:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs">
+                    CHOLULA / CUAUTLA ZAPATA
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    CITLATEPETL / LA LIBERTAD
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">16:00 20:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                  <td className="px-4 py-3 border text-xs">ANGELOPOLIS</td>
+                  <td className="px-4 py-3 border text-xs">ARBOLEDAS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mx-auto p-6 ">
+        <div className="container mx-auto p-4 space-y-2 text-left">
+          <h2 className="text-3xl font-bold ">Primer semana de Abril:</h2>
+        </div>
+        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
+          <div className="w-full overflow-x-auto">
+            <table className="w-full ">
+              <thead className="">
+                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
+                  <th className="px-4 py-3 text-center">Turno</th>
+                  <th className="px-4 py-3 text-center">Lunes 1</th>
+                  <th className="px-4 py-3 text-center">Martes 2</th>
+                  <th className="px-4 py-3 text-center">Miércoles 3</th>
+                  <th className="px-4 py-3 text-center">Jueves 4</th>
+                  <th className="px-4 py-3 text-center">Viernes 5</th>
+                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white">
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">08:00 12:00</p>
+                      </div>
+                    </div>
+                  </td>
                   <td className="px-4 py-3 border text-xs">AMALUCAN</td>
+                  <td className="px-4 py-3 border text-xs">LA LIBERTAD</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN MEX</td>
+                  <td className="px-4 py-3 border text-xs">ARBOLEDAS</td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">12:00 16:00</p>
+                      </div>
+                    </div>
+                  </td>
                   <td className="px-4 py-3 border text-xs">
                     TEZIUTLÁN / TLAXCALA MEX
                   </td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA NTE</td>
+                  <td className="px-4 py-3 border text-xs">
+                    TEHUACAN / ANGELOPOLIS
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    DTO. IZUCAR / LA PAZ
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    DTO. I. MEJIA / OMETOXTLA
+                  </td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">16:00 20:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">ATLIXCO</td>
+                  <td className="px-4 py-3 border text-xs">FUERTES</td>
+                  <td className="px-4 py-3 border text-xs">CHOLULA</td>
+                  <td className="px-4 py-3 border text-xs">VALSEQUILLO</td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA MEX</td>
+                  <td className="px-4 py-3 border text-xs"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mx-auto p-6 ">
+        <div className="container mx-auto p-4 space-y-2 text-left">
+          <h2 className="text-3xl font-bold">Segunda semana de Abril:</h2>
+        </div>
+        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
+          <div className="w-full overflow-x-auto">
+            <table className="w-full ">
+              <thead className="">
+                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
+                  <th className="px-4 py-3 text-center">Turno</th>
+                  <th className="px-4 py-3 text-center">Lunes 1</th>
+                  <th className="px-4 py-3 text-center">Martes 2</th>
+                  <th className="px-4 py-3 text-center">Miércoles 3</th>
+                  <th className="px-4 py-3 text-center">Jueves 4</th>
+                  <th className="px-4 py-3 text-center">Viernes 5</th>
+                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white">
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">08:00 12:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">CHOLULA</td>
+                  <td className="px-4 py-3 border text-xs">AMALUCAN</td>
+                  <td className="px-4 py-3 border text-xs">FUERTES</td>
+                  <td className="px-4 py-3 border text-xs">ANGELOPOLIS</td>
+                  <td className="px-4 py-3 border text-xs">VALSEQUILLO</td>
+                  <td className="px-4 py-3 border text-xs">
+                    OMETOXTLA / CUAUTLA PALMAS
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">12:00 16:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN MEX</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN SUR</td>
+                  <td className="px-4 py-3 border text-xs">
+                    DTO. IZUCAR / ARBOLEDAS
+                  </td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA MEX</td>
+                  <td className="px-4 py-3 border text-xs">ATLIXCO</td>
+                  <td className="px-4 py-3 border text-xs">
+                    DTO. I. MEJIA / AMALUCAN
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">16:00 20:00</p>
+                      </div>
+                    </div>
+                  </td>
                   <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICANMEX</td>
+                  <td className="px-4 py-3 border text-xs">OMETOXTLA</td>
+                  <td className="px-4 py-3 border text-xs">LA PAZ</td>
+                  <td className="px-4 py-3 border text-xs">LA LIBERTAD</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN MEX</td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA NTE</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mx-auto p-6 ">
+        <div className="container mx-auto p-4 space-y-2 text-left">
+          <h2 className="text-3xl font-bold">Tercera semana de Abril:</h2>
+        </div>
+        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
+          <div className="w-full overflow-x-auto">
+            <table className="w-full ">
+              <thead className="">
+                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
+                  <th className="px-4 py-3 text-center">Turno</th>
+                  <th className="px-4 py-3 text-center">Lunes 1</th>
+                  <th className="px-4 py-3 text-center">Martes 2</th>
+                  <th className="px-4 py-3 text-center">Miércoles 3</th>
+                  <th className="px-4 py-3 text-center">Jueves 4</th>
+                  <th className="px-4 py-3 text-center">Viernes 5</th>
+                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white">
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">08:00 12:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA NTE</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN MEX</td>
+                  <td className="px-4 py-3 border text-xs">TLAXCALA MEX</td>
+                  <td className="px-4 py-3 border text-xs">OMETOXTLA</td>
+                  <td className="px-4 py-3 border text-xs">FUERTES</td>
+                  <td className="px-4 py-3 border text-xs">
+                    ATLIXCO / CUAUTLA MEXICO
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-xs text-gray-600">12:00 16:00</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    CITLATEPETL / FUERTES
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    TEZIUTLÁN / ATLIXCO
+                  </td>
+                  <td className="px-4 py-3 border text-xs">LA LIBERTAD</td>
                   <td className="px-4 py-3 border text-xs">ARBOLEDAS</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">12:00 16:00</p>
-                      </div>
-                    </div>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
+                  <td className="px-4 py-3 border text-xs">
+                    TEHUACAN / VALSEQUILLO
                   </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
                 </tr>
                 <tr className="text-gray-700">
                   <td className="px-4 py-3 border">
@@ -476,222 +721,12 @@ const Home = ({
                       </div>
                     </div>
                   </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section className="container mx-auto p-6 ">
-        <div className="container mx-auto p-4 space-y-2 text-left">
-          <h2 className="text-3xl font-bold ">Ultima semana de Marzo:</h2>
-        </div>
-        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
-          <div className="w-full overflow-x-auto">
-            <table className="w-full ">
-              <thead className="">
-                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
-                  <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
-                </tr>
-              </thead>
-              <tbody className="bg-white">
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">08:00 12:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">12:00 16:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">16:00 20:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section className="container mx-auto p-6 ">
-        <div className="container mx-auto p-4 space-y-2 text-left">
-          <h2 className="text-3xl font-bold">Ultima semana de Marzo:</h2>
-        </div>
-        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
-          <div className="w-full overflow-x-auto">
-            <table className="w-full ">
-              <thead className="">
-                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
-                  <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
-                </tr>
-              </thead>
-              <tbody className="bg-white">
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">08:00 12:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">12:00 16:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">16:00 20:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section className="container mx-auto p-6 ">
-        <div className="container mx-auto p-4 space-y-2 text-left">
-          <h2 className="text-3xl font-bold">Ultima semana de Marzo:</h2>
-        </div>
-        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
-          <div className="w-full overflow-x-auto">
-            <table className="w-full ">
-              <thead className="">
-                <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
-                  <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
-                </tr>
-              </thead>
-              <tbody className="bg-white">
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">08:00 12:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">12:00 16:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                </tr>
-                <tr className="text-gray-700">
-                  <td className="px-4 py-3 border">
-                    <div className="flex items-center text-sm">
-                      <div>
-                        <p className="text-xs text-gray-600">16:00 20:00</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
-                  <td className="px-4 py-3 border text-xs">NEALTICAN NTE</td>
+                  <td className="px-4 py-3 border text-xs">VALSEQUILLO</td>
+                  <td className="px-4 py-3 border text-xs">CHOLULA</td>
+                  <td className="px-4 py-3 border text-xs">ANGELOPOLIS</td>
+                  <td className="px-4 py-3 border text-xs">AMALUCAN</td>
+                  <td className="px-4 py-3 border text-xs">NEALTICAN SUR</td>
+                  <td className="px-4 py-3 border text-xs">LA PAZ</td>
                 </tr>
               </tbody>
             </table>
@@ -721,6 +756,67 @@ const Home = ({
           </svg>
         </motion.a>
       </div>
+
+      {/* HUVASDCBHIC */}
+
+      <section className="container mx-auto p-6 ">
+        <div className="container mx-auto p-4 space-y-2 text-left">
+          <h2 className="text-3xl font-bold pt-10 ">Fechas de capacitación:</h2>
+        </div>
+        <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
+          <div className="w-full overflow-x-auto">
+            <table className="w-full ">
+              <tbody className="bg-white">
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-black text-left">
+                          Estacas del Consejo Puebla Norte y Estaca Teziutlán:
+                        </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    DOMINGO 25 de febrero a las 5 de la tarde en cada Centro de
+                    Estaca/Distrito.
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-black text-left">
+                          Estacas del Consejo Puebla Sur:
+                        </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    DOMINGO 03 de marzo a las 5 de la tarde en cada centro de
+                    Estaca/Distrito.
+                  </td>
+                </tr>
+                <tr className="text-gray-700">
+                  <td className="px-4 py-3 border">
+                    <div className="flex items-center text-sm">
+                      <div>
+                        <p className="text-black text-left">
+                          Estacas de Cuautla, Morelos:
+                        </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-4 py-3 border text-xs">
+                    DOMINGO 10 de marzo a las 5 de la tarde en cada centro de
+                    Estaca/Distrito.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </section>
