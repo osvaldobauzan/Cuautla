@@ -438,12 +438,12 @@ const Home = ({
               <thead className="">
                 <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
                   <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                  <th className="px-4 py-3 text-center">Lunes 25</th>
+                  <th className="px-4 py-3 text-center">Martes 26</th>
+                  <th className="px-4 py-3 text-center">Miércoles 27</th>
+                  <th className="px-4 py-3 text-center">Jueves 28</th>
+                  <th className="px-4 py-3 text-center">Viernes 29</th>
+                  <th className="px-4 py-3 text-center">Sábado 30</th>
                 </tr>
               </thead>
               <tbody className="bg-white">
@@ -590,12 +590,12 @@ const Home = ({
               <thead className="">
                 <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
                   <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                  <th className="px-4 py-3 text-center">Lunes 8</th>
+                  <th className="px-4 py-3 text-center">Martes 9</th>
+                  <th className="px-4 py-3 text-center">Miércoles 10</th>
+                  <th className="px-4 py-3 text-center">Jueves 11</th>
+                  <th className="px-4 py-3 text-center">Viernes 12</th>
+                  <th className="px-4 py-3 text-center">Sábado 13</th>
                 </tr>
               </thead>
               <tbody className="bg-white">
@@ -666,12 +666,12 @@ const Home = ({
               <thead className="">
                 <tr className="text-xs font-medium tracking-wide text-left text-gray-900 bg-purple-200 uppercase border-b border-gray-600">
                   <th className="px-4 py-3 text-center">Turno</th>
-                  <th className="px-4 py-3 text-center">Lunes 1</th>
-                  <th className="px-4 py-3 text-center">Martes 2</th>
-                  <th className="px-4 py-3 text-center">Miércoles 3</th>
-                  <th className="px-4 py-3 text-center">Jueves 4</th>
-                  <th className="px-4 py-3 text-center">Viernes 5</th>
-                  <th className="px-4 py-3 text-center">Sábado 6</th>
+                  <th className="px-4 py-3 text-center">Lunes 15</th>
+                  <th className="px-4 py-3 text-center">Martes 16</th>
+                  <th className="px-4 py-3 text-center">Miércoles 17</th>
+                  <th className="px-4 py-3 text-center">Jueves 18</th>
+                  <th className="px-4 py-3 text-center">Viernes 19</th>
+                  <th className="px-4 py-3 text-center">Sábado 20</th>
                 </tr>
               </thead>
               <tbody className="bg-white">
