@@ -52,8 +52,9 @@ const Home = ({
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
           const wordClass =
-            word === "Cuautla" || word === "Puebla"
-              ? "w-full text-7xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
+            word === "Cuautla"
+              ? // || word === "Puebla"
+                "w-full text-7xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
               : "text-black";
           return (
             <motion.span
@@ -89,6 +90,7 @@ const Home = ({
             <motion.a
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.8, rotate: -10 }}
+              target="_blank"
               href="https://forms.office.com/Pages/ResponsePage.aspx?id=9_PMdkih7kKscDZGUlWmsiqbw7t9kotKirggV9Xm5NFUOUc5U01PT0dYWUlQMldTV0ZZQ1hPUkQ1VC4u"
               className="inline-flex items-center justify-center px-6 py-3 mb-2 text-lg text-white bg-purple-700 rounded-2xl sm:w-auto sm:mb-0 "
             >
@@ -150,9 +152,10 @@ const Home = ({
                   </h1>
                 </Link>
                 <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                  Somos los responsables de atender a los visitantes en la
+                  primera estación del recorrido de puertas abiertas del templo
+                  de Puebla, para ayudarles a reconocer el propósito de estos en
+                  la Iglesia de Jesucristo de los Santos de los Últimos Días.
                 </p>
 
                 <Link to={"/tecnologia"}>
@@ -191,9 +194,9 @@ const Home = ({
                 </h1>
 
                 <p className="text-gray-500 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab nulla quod dignissimos vel non corrupti doloribus
-                  voluptatum eveniet
+                  Cuidar y proteger la Integridad Física (Salud) y Material
+                  (Bienes) de todos los participantes al Evento con la ayuda de
+                  25 hermanas y/o hermanos bien dispuestos
                 </p>
 
                 <a

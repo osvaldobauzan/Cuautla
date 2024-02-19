@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Routes>
-        <Route path="/" element={<Home img={templo} words='Hola' wordSpan='Cuautla' className='mb-8 text-5xl font-extrabold leading-none tracking-normal text-gray-900 md:tracking-tight' />} />
+        <Route path="/" element={<Home img={templo} words='Hola Cuautla' wordSpan='Cuautla' className='mb-8 text-5xl font-extrabold leading-none tracking-normal text-gray-900 md:tracking-tight' />} />
 
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/seguridad" element={<Seguridad />} />
