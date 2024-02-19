@@ -101,7 +101,7 @@ const Facilidades = () => {
             className="inline-flex items-center justify-center px-6 py-3 mb-2 text-lg text-white bg-purple-700 rounded-2xl sm:w-auto sm:mb-0 "
           >
             <span className="" />
-            Incríbete
+            Inscríbete
             <svg
               className="w-4 h-4 ml-1"
               xmlns="http://www.w3.org/2000/svg"
