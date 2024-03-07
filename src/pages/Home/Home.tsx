@@ -83,10 +83,9 @@ const Home = ({
           </div>
           <p className="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
             Gracias por tu interés en servir como voluntario de las puertas
-            abiertas del templo de la ciudad de Puebla, aquí podrás encontrar
-            más información.
+            abiertas del templo de la ciudad de Puebla, EL PERIODO DE INSCRIPCIÓN FINALIZO
           </p>
-          <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
+          {/* <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
             <motion.a
               whileHover={{ scale: 1.2, rotate: 10 }}
               whileTap={{ scale: 0.8, rotate: -10 }}
@@ -109,7 +108,7 @@ const Home = ({
                 ></path>
               </svg>
             </motion.a>
-          </div>
+          </div> */}
         </div>
         <div className="w-full mx-auto mt-20 text-center md:w-10/12">
           <div className="relative z-0 w-full mt-8">
@@ -401,7 +400,7 @@ const Home = ({
         </div>
       </section>
 
-      <div className="mt-10 space-x-0 md:space-x-2">
+      {/* <div className="mt-10 space-x-0 md:space-x-2">
         <motion.a
           whileHover={{ scale: 1.2, rotate: 10 }}
           whileTap={{ scale: 0.8, rotate: -10 }}
@@ -423,7 +422,7 @@ const Home = ({
             ></path>
           </svg>
         </motion.a>
-      </div>
+      </div> */}
       {/* CALENDAR SECTION  */}
 
       <h2 className="pt-28 text-5xl font-bold text-gray-900">Calendario</h2>
@@ -734,7 +733,7 @@ const Home = ({
         </div>
       </section>
 
-      <div className="mt-10 space-x-0 md:space-x-2">
+      {/* <div className="mt-10 space-x-0 md:space-x-2">
         <motion.a
           whileHover={{ scale: 1.2, rotate: 10 }}
           whileTap={{ scale: 0.8, rotate: -10 }}
@@ -756,7 +755,7 @@ const Home = ({
             ></path>
           </svg>
         </motion.a>
-      </div>
+      </div> */}
 
       {/* HUVASDCBHIC */}
 
