@@ -92,7 +92,7 @@ const Facilidades = () => {
             </ul>
           </div>
         </div>
-        <div className="sm:mt-10 md:mt-20 mb-4 space-x-0 md:space-x-2 md:mb-8">
+        {/* <div className="sm:mt-10 md:mt-20 mb-4 space-x-0 md:space-x-2 md:mb-8">
           <motion.a
             whileHover={{ scale: 1.2, rotate: 10 }}
             whileTap={{ scale: 0.8, rotate: -10 }}
@@ -115,7 +115,7 @@ const Facilidades = () => {
               ></path>
             </svg>
           </motion.a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

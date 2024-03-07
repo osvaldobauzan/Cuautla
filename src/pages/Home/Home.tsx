@@ -54,7 +54,7 @@ const Home = ({
           const wordClass =
             word === "Cuautla"
               ? // || word === "Puebla"
-                "w-full md:text-7xl text-6xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
+              "w-full md:text-7xl text-6xl py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-purple-500 to-violet-600 lg:inline"
               : "text-black";
           return (
             <motion.span
@@ -82,8 +82,7 @@ const Home = ({
             </div>
           </div>
           <p className="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
-            Gracias por tu interés en servir como voluntario de las puertas
-            abiertas del templo de la ciudad de Puebla, EL PERIODO DE INSCRIPCIÓN FINALIZO
+            Gracias por tu interés en servir como voluntario en las puertas abiertas del templo de la ciudad de Puebla. EL PERIODO DE INSCRIPCIÓN HA FINALIZADO.
           </p>
           {/* <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
             <motion.a
